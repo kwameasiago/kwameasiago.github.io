@@ -1,0 +1,418 @@
+p, h1, h2, i {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 80;
+}
+hr{
+    color:gray;
+    background-color:gray;
+    width: 100%;
+    height: 1px;
+    border-width: 0px;
+}
+
+body {
+    background-color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: #3C3C3C;
+    margin: 0;
+}
+
+.nav ul {
+    display:flex;  
+    list-style:none;
+}
+.left {
+    position: relative;
+    bottom: 5;
+    float: left;  
+    display: flex;
+}
+.fileName{
+    position: relative;
+    left: 20em
+}
+
+.fileName p{
+    color: #B3B3B3;
+}
+.left img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10;
+    
+}
+.right {
+    position: relative;
+    top: 12;
+    float: right;
+    margin-right: 5px;
+}
+.nav ul {
+    position: relative;
+    right: 40
+}
+
+.nav ul > li {
+    color: #B3B3B3;
+    margin: 0 10 0 10;
+}
+
+.nav  i {
+    color: #B3B3B3;
+    font-size: 14.em;
+    margin: 0 5 0 5
+}
+
+
+/* body */
+.container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 10
+
+}
+
+.side-nav{
+    background-color: #333333;
+    width: 3%;
+    height: 96vh;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.icons i {
+    color: grey;
+    font-size: 2em;
+    padding: 15px 10px 15px 10px ;
+}
+
+#active-icon{
+    color: #B3B3B3;
+}
+.file-nav{
+    background-color: #252526;
+    width: 10%;
+    height: 96vh;
+}
+
+.code-area{
+    background-color: #1E1E1E;
+    width: 87%;
+    height: 96vh;
+}
+
+/* file explore */
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.folder h1 {
+    position: relative;
+    left: 20;
+}
+.sub-folder h2{
+    position: relative;
+    left: 30;
+}
+
+
+.explorer {
+    padding-left: 10px;
+
+}
+.explorer h1, .explorer h2{
+    color: #CCCCCC;
+    font-size: 1em;
+}
+
+.folder h1, .folder h2, .file > h1 {
+    color: #ABB9C6;
+}
+
+.code-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.code {
+    height: 62vh;
+    width: 100%;
+}
+
+.terminal {
+    height: 38vh;
+    width: 100%;
+}
+#active {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+}
+
+.terminal p {
+    color: #CCCCCC;
+    padding-left: 20px;
+}
+.git p{
+    color: #f2b80c;
+}
+
+.output-line p{
+    line-height: 10%;
+}
+
+.user-info {
+    color: green;
+}
+
+.type {
+    color: purple;
+}
+
+.directory {
+    color: #5210ed;
+}
+
+#error{
+    color: red;
+}
+
+.terminal-breadcrum {
+    display: flex;
+}
+.terminal-breadcrum p{
+    font-size: .7em;
+    color: grey;
+    margin: 0px 10px 0px 10px;
+}
+
+.code-breadcrum{
+    position: relative;
+    bottom: 10;
+    left: 10;
+}
+.code-breadcrum p{
+    color: grey;
+    font-size: .8em;
+}
+
+.code-line{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 30;
+    left: 10;
+}
+
+.code-line p {
+    line-height: 1.2;
+}
+
+.code-line a {
+    color: grey
+}
+
+.number {
+    width: 2vh;
+    color: #B3B3B3;
+    font-size: .8em;
+    margin-right: 15px;
+}
+
+.blue {
+    color: #3172C5;
+}
+
+.grey {
+    color: grey;
+}
+
+.brown{
+    color: #A76A4C
+}
+
+@media only screen and (max-width: 1440px) {
+    .nav{
+        width: 110%;
+        height: 40px;
+        background-color: #3C3C3C;
+        margin: 0;
+    }
+    
+    .nav ul {
+        display:flex;  
+        list-style:none;
+    }
+    .code {
+        height: 62vh;
+        width: 110%;
+        overflow: scroll;
+    }
+    
+    .terminal {
+        height: 38vh;
+        width: 110%;
+    }
+    hr{
+        display: none;
+    }
+    .side-nav{
+        background-color: #333333;
+        width: 3%;
+        height: 120vh;
+    }
+    .file-nav{
+        background-color: #252526;
+        width: 10%;
+        height: 120vh;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .fileName{
+        position: relative;
+        left: 6em
+    }
+    .side-nav{
+        background-color: #333333;
+        width: 5%;
+        height: 120vh;
+    }
+    .file-nav{
+        background-color: #252526;
+        width: 15%;
+        height: 120vh;
+    }
+    .code-area{
+        background-color: #1E1E1E;
+        width: 80%;
+        height: 96vh;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .fileName{
+        position: relative;
+        left: 14em
+    }
+    .side-nav{
+        background-color: #333333;
+        width: 7%;
+        height: 120vh;
+    }
+    .file-nav{
+        display: none;
+    }
+    .code-area{
+        background-color: #1E1E1E;
+        width: 93%;
+        height: 96vh;
+    }
+    .nav ul {
+        display: none;
+    }
+    .terminal {
+        height: 40vh;
+        width: 110%;
+        overflow: scroll;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+    .nav{
+        width: 120%;
+        height: 50px;
+        background-color: #3C3C3C;
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        position: relative;
+        bottom: 0
+    
+    }
+    .fileName{
+        display: none;
+    }
+    .fileName{
+        position: relative;
+        left: 2em
+    }
+
+    .side-nav{
+        background-color: #333333;
+        width: 12%;
+        height: 120vh;
+    }
+
+    .code-area{
+        background-color: #1E1E1E;
+        width: 90%;
+        height: 120vh;
+    }
+    .code-line{
+        width: 190%;
+    }
+    .code {
+        height: 120vh;
+        width: 120%;
+    }
+
+    .terminal {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .nav{
+        width: 100%;
+        height: 50px;
+        background-color: #3C3C3C;
+        margin: 0;
+    }
+    .fileName{
+        display: none;
+    }
+    .side-nav{
+        background-color: #333333;
+        width: 15%;
+        height: 120vh;
+    }
+
+    .code-area{
+        background-color: #1E1E1E;
+        width: 375px;
+        height: 125vh;
+        overflow: scroll;
+    }
+    .code-line{
+        width: 240%;
+    }
+    /* .code {
+        height: 120vh;
+        width: 120%;
+    } */
+
+    .terminal {
+        display: none;
+    }
+}
