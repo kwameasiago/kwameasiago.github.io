@@ -2,6 +2,14 @@ p, h1, h2, i {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 80;
 }
+
+#type{
+    display: inline;
+}
+.typed-cursor {
+    color: #fff;
+}
+
 hr{
     color:gray;
     background-color:gray;
