@@ -1,31 +1,18 @@
-let message = ['<span class="number">1</span> <span class="blue"> # Untro', `
-                        <span class="number">1</span> <span class="blue"> # Intro  </span><br>
-                        <span class="number">2</span> <br>
-                        <span class="number">3</span> <span class="grey"> I have <span class="brown">'6+ years worth of experience'</span> in designing and building front-end and back-end applications.   </span><br>
-                        <span class="number">4</span> <span class="grey">  I possess a sound understanding of how to<span class="brown">' build, deploy and scale web applications' </span>.My objective during </span><br>
-                        <span class="number">5</span> <span class="grey">  my career is to build world-class software products that improve the lives of its users. </span><br>
-                        <span class="number">6</span><br>
-                        <span class="number">7</span><br>
-                        <span class="number">8</span> <span class="blue"> ## TECHNICAL SKILLS  </span><br>
-                        <span class="number">9</span> <br>
-                        <span class="number">10</span> <span class="blue">1.</span><span class="grey"> Back-end :  Node, expressJS, python, flask  </span><br>
-                        <span class="number">11</span> <span class="blue">2.</span><span class="grey"> Front-end: Javascript, css, bootstrap, material ui, React, Vue, Nextjs </span><br>
-                        <span class="number">12</span> <span class="blue">3.</span><span class="grey"> Database: Postgres, MYSQL, MONGO, </span><br>
-                        <span class="number">13</span> <span class="blue">4.</span><span class="grey"> Devops: Docker, Kubernetes, AWS services </span><br>
-                        <span class="number">14</span> <br>
-                        <span class="number">15</span> <span class="grey">' ' ' </span><br>
-                        <span class="number">16</span> <span class="grey">Below links are clickable <i class="fa fa-hand-o-down"></i></span><br>
-                        <span class="number">17</span> <span class="grey"> ' ' ' </span><br>
-                        <span class="number">18</span> <span class="grey">===================================================================</span><br>
-                        <span class="number">19</span> <br>
-                        <span class="number">20</span> <span class="grey">- <a href="https://www.linkedin.com/in/kwame-asiago-44b6a7102/"> [linkedin] ( https://www.linkedin.com/in/kwame-asiago-44b6a7102/</a>)</span><br>
-                        <span class="number">21</span> <span class="grey">- <a href="https://github.com/kwameasiago"> [github] ( https://github.com/kwameasiago</a>)</span><br>
-                        <span class="number">21</span> <span class="grey">- <a href="mailto:kwameasiago@gmail.com"> [email] ( kwameasiago@gmail.com</a>)</span><br>
-                        <span class="number">22</span> <br>
-                        <span class="number">23</span> <span class="grey">===================================================================</span><br></br>
-`,
 
-];
+let message;
+let width = screen.width;
+console.log(width)
+if(width <= 425 && width >= 393){
+    message = largePhone;
+}
+else if(width <= 393){
+    message = smallPhone;
+    console.log(width)
+}
+else {
+    message = Desktopmessage;
+}
+
 
 var options = {
     strings: message,
