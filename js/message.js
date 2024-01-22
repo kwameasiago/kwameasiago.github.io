@@ -6,7 +6,7 @@ let Desktopmessage = ['<span class="number">1</span> <span class="blue"> # Untro
 '<span class="number">1</span> <span class="blue"> # UNTRO', `
                         <span class="number">1</span> <span class="blue"> # INTRODUCTION  </span><br>
                         <span class="number">2</span> <br>
-                        <span class="number">3</span> <span class="grey"> I have <span class="brown">'6+ years worth of experience'</span> in designing and building front-end and back-end applications.   </span><br>
+                        <span class="number">3</span> <span class="grey"> I have <span class="brown">'9+ years worth of experience'</span> in designing and building front-end and back-end applications.   </span><br>
                         <span class="number">4</span> <span class="grey">  I possess a sound understanding of how to<span class="brown">' build, deploy and scale web applications' </span>.My objective during </span><br>
                         <span class="number">5</span> <span class="grey">  my career is to build world-class software products that improve the lives of its users. </span><br>
                         <span class="number">6</span><br>
